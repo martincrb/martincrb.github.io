@@ -2,16 +2,10 @@ body {
   text-align: center;
   margin: 40px;
 }
-
-#top-sheet {
-    width: 450px;
-    display: inline-block;
-}
-
 p {
-    font-family: "Courier New", sans-serif;
+    font-family: 'Karla', sans-serif;
 }
-
+a {text-decoration: none; }
 .desc-elem {
   display: inline;
   width: 200px;
@@ -44,6 +38,9 @@ p {
   opacity: 100;
 }
 
+.platform-holder {
+  width: 50px;
+}
 #face {
   display: inline-block;
   width: 150px;
@@ -57,6 +54,42 @@ p {
 
 #face:hover {
   width: 160px;
+}
+
+#top-sheet {
+    width: 450px;
+    display: inline-block;
+}
+
+#platforms {
+  margin: 40px;
+  display: -webkit-inline-box;
+}
+#platforms i {
+  text-align: center;
+  font-size: 20px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
+#platforms i:hover {
+  font-size: 25px;
+}
+
+#platforms .fa-github:hover {
+  color: purple;
+}
+
+#platforms .fa-youtube-play:hover {
+  color: red;
+}
+
+#platforms .fa-linkedin-square:hover {
+  color: blue;
+}
+
+#platforms .fa-instagram:hover {
+  color: pink;
 }
 
 #background-anim {
