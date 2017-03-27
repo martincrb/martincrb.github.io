@@ -1,5 +1,47 @@
 body {
   text-align: center;
+  margin: 40px;
+}
+
+#top-sheet {
+    width: 450px;
+    display: inline-block;
+}
+
+p {
+    font-family: "Courier New", sans-serif;
+}
+
+.desc-elem {
+  display: inline;
+  width: 200px;
+  height: 50px;
+}
+#desc {
+  display: inline;
+  margin: 40px;
+}
+
+#desc-left {
+  float: left;
+  display: inline;
+}
+
+#desc-right {
+  float: right;
+  display: inline;
+}
+
+#desc p {
+}
+
+.surprise {
+  opacity: 0;
+  transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s
+}
+.surprise:hover{
+  opacity: 100;
 }
 
 #face {
@@ -15,4 +57,11 @@ body {
 
 #face:hover {
   width: 160px;
+}
+
+#background-anim {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:-1;
 }
